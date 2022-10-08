@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800;900&family=Zilla+Slab:wght@300;600&display=swap');
+body{
+    background-color: #100720;
+}
+
+.nav-link{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 400;
+}
+
+/* .quotes{
+    background-color: #100720;
+    height: 1000px;
+} */
+
+
+.text_quotes{
+    font-size: 50px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: #FFC23C;
+    text-shadow: 1px 1px 0 rgb(255, 255, 255), 1px 1px 0 rgb(255, 255, 255), 1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.profile{
+    display: block;
+    justify-content: center;
+    background-color: #31087B;
+}
+
+.text_profile{
+    font-size: 30px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+}
+
+.foto {
+    /* margin-top: 20; */
+    /* margin-left: 0px; */
+    width: 223px;
+    height: 250px;
+    /* border-radius: 100%; */
+    clip-path: circle();
+}
+
+.intro{
+    margin-top: 10px;
+    /* margin-left: -200px; */
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-weight:  400;
+}
+
+.lokasi{
+    display:inline-flex;
+}
+
+.education-tilte{
+    font-family: 'Zilla Slab', serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 36px;
+    font-style: normal;
+}
+
+.education-text{
+    font-family: 'Zilla Slab', serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    /* gap: 10px; */
+}
+
+.education-text1{
+     font-family: 'Nunito', sans-serif;
+    font-weight:  900;
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+}
+.tools-title{
+font-family: 'Nunito', sans-serif;
+    font-weight:  800;
+    font-size: 40px;
+    text-align: center;
+}
+
+.portofolio{
+    display: block;
+    justify-content: center;
+    background-color: #FA2FB5;
+}
